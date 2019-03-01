@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0B325821ECA3F500DE2C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B325721ECA3F500DE2C90 /* AppDelegate.m */; };
+		2C0B326021ECA3F700DE2C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B325F21ECA3F700DE2C90 /* Assets.xcassets */; };
+		2C0B326321ECA3F700DE2C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B326121ECA3F700DE2C90 /* LaunchScreen.storyboard */; };
+		2C0B326621ECA3F700DE2C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B326521ECA3F700DE2C90 /* main.m */; };
+		2C0B327C21ECA6E500DE2C90 /* FMLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B327A21ECA6E500DE2C90 /* FMLoginController.m */; };
+		2C0B327D21ECA6E500DE2C90 /* FMLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B327B21ECA6E500DE2C90 /* FMLoginController.xib */; };
+		2C0B328221ECAC7400DE2C90 /* FMRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B328021ECAC7400DE2C90 /* FMRegisterController.m */; };
+		2C0B328321ECAC7400DE2C90 /* FMRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B328121ECAC7400DE2C90 /* FMRegisterController.xib */; };
+		2C0B328721ECAFE800DE2C90 /* FMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B328621ECAFE800DE2C90 /* FMUser.m */; };
+		2C0B328A21ECB49700DE2C90 /* FMTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B328921ECB49700DE2C90 /* FMTabController.m */; };
+		2C0B328D21ECB51000DE2C90 /* FMNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B328C21ECB51000DE2C90 /* FMNavController.m */; };
+		2C0B329121ECB66300DE2C90 /* FMConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B329021ECB66300DE2C90 /* FMConst.m */; };
+		2C0B329521ECBA1400DE2C90 /* FMFuntionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B329321ECBA1400DE2C90 /* FMFuntionController.m */; };
+		2C0B329621ECBA1400DE2C90 /* FMFuntionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B329421ECBA1400DE2C90 /* FMFuntionController.xib */; };
+		2C0B329921ECBB4900DE2C90 /* FMtableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B329821ECBB4900DE2C90 /* FMtableController.m */; };
+		2C0B32A221ECBE9300DE2C90 /* FMMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32A021ECBE9300DE2C90 /* FMMeController.m */; };
+		2C0B32A321ECBE9300DE2C90 /* FMMeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32A121ECBE9300DE2C90 /* FMMeController.xib */; };
+		2C0B32A621ECE8ED00DE2C90 /* FMUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32A521ECE8ED00DE2C90 /* FMUserManager.m */; };
+		2C0B32AA21ED6C0800DE2C90 /* FMMeModifyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32A821ED6C0800DE2C90 /* FMMeModifyController.m */; };
+		2C0B32AB21ED6C0800DE2C90 /* FMMeModifyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32A921ED6C0800DE2C90 /* FMMeModifyController.xib */; };
+		2C0B32AF21ED81B800DE2C90 /* FMFunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32AD21ED81B800DE2C90 /* FMFunCell.m */; };
+		2C0B32B021ED81B800DE2C90 /* FMFunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32AE21ED81B800DE2C90 /* FMFunCell.xib */; };
+		2C0B32B421ED9DA600DE2C90 /* FMOfficeDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32B321ED9DA600DE2C90 /* FMOfficeDetailController.m */; };
+		2C0B32B921ED9DE300DE2C90 /* FMDetailOfficeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32B721ED9DE300DE2C90 /* FMDetailOfficeCell.m */; };
+		2C0B32BA21ED9DE300DE2C90 /* FMDetailOfficeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32B821ED9DE300DE2C90 /* FMDetailOfficeCell.xib */; };
+		2C0B32BE21EDA79800DE2C90 /* FMHospitalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32BD21EDA79800DE2C90 /* FMHospitalController.m */; };
+		2C0B32C721EDAC1800DE2C90 /* FMHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32C621EDAC1800DE2C90 /* FMHospital.m */; };
+		2C0B32CC21EDC7B400DE2C90 /* FMHospitalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32CA21EDC7B400DE2C90 /* FMHospitalCell.m */; };
+		2C0B32CD21EDC7B400DE2C90 /* FMHospitalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32CB21EDC7B400DE2C90 /* FMHospitalCell.xib */; };
+		2C0B32D121EDCA2500DE2C90 /* HospitalDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32CF21EDCA2500DE2C90 /* HospitalDetailController.m */; };
+		2C0B32D221EDCA2500DE2C90 /* HospitalDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32D021EDCA2500DE2C90 /* HospitalDetailController.xib */; };
+		2C0B32D521EDDC6200DE2C90 /* FMHosDoctorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32D421EDDC6200DE2C90 /* FMHosDoctorController.m */; };
+		2C0B32D921EDDC7D00DE2C90 /* FMHosDocCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B32D721EDDC7D00DE2C90 /* FMHosDocCell.m */; };
+		2C0B32DA21EDDC7D00DE2C90 /* FMHosDocCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B32D821EDDC7D00DE2C90 /* FMHosDocCell.xib */; };
+		2CB52F6721EDECCC00E0A68E /* FMDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB52F6621EDECCC00E0A68E /* FMDoctor.m */; };
+		2CB52F6B21EE1CC700E0A68E /* FMDocDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB52F6921EE1CC700E0A68E /* FMDocDetailController.m */; };
+		2CB52F6C21EE1CC700E0A68E /* FMDocDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB52F6A21EE1CC700E0A68E /* FMDocDetailController.xib */; };
+		2CB52F7021EE338D00E0A68E /* FMDocConfirmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB52F6E21EE338D00E0A68E /* FMDocConfirmController.m */; };
+		2CB52F7121EE338D00E0A68E /* FMDocConfirmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB52F6F21EE338D00E0A68E /* FMDocConfirmController.xib */; };
+		2CB52F7521EE504900E0A68E /* FMRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB52F7321EE504900E0A68E /* FMRecordCell.m */; };
+		2CB52F7621EE504900E0A68E /* FMRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB52F7421EE504900E0A68E /* FMRecordCell.xib */; };
+		2CB52F7921EE521700E0A68E /* FMRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB52F7821EE521700E0A68E /* FMRecord.m */; };
+		2CB52F7D21EE55DC00E0A68E /* FMRecordDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB52F7B21EE55DC00E0A68E /* FMRecordDetailController.m */; };
+		2CB52F7E21EE55DC00E0A68E /* FMRecordDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB52F7C21EE55DC00E0A68E /* FMRecordDetailController.xib */; };
+		A7CA8C8CB4DA39A2B90635FA /* libPods-EasyToSeeADoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D6B64D82AC416451B1EB1 /* libPods-EasyToSeeADoctor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C0B325321ECA3F500DE2C90 /* EasyToSeeADoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyToSeeADoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0B325621ECA3F500DE2C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C0B325721ECA3F500DE2C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C0B325F21ECA3F700DE2C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C0B326221ECA3F700DE2C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C0B326421ECA3F700DE2C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0B326521ECA3F700DE2C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C0B327921ECA6E500DE2C90 /* FMLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLoginController.h; sourceTree = "<group>"; };
+		2C0B327A21ECA6E500DE2C90 /* FMLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLoginController.m; sourceTree = "<group>"; };
+		2C0B327B21ECA6E500DE2C90 /* FMLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMLoginController.xib; sourceTree = "<group>"; };
+		2C0B327F21ECAC7400DE2C90 /* FMRegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMRegisterController.h; sourceTree = "<group>"; };
+		2C0B328021ECAC7400DE2C90 /* FMRegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMRegisterController.m; sourceTree = "<group>"; };
+		2C0B328121ECAC7400DE2C90 /* FMRegisterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMRegisterController.xib; sourceTree = "<group>"; };
+		2C0B328521ECAFE800DE2C90 /* FMUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMUser.h; sourceTree = "<group>"; };
+		2C0B328621ECAFE800DE2C90 /* FMUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMUser.m; sourceTree = "<group>"; };
+		2C0B328821ECB49700DE2C90 /* FMTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMTabController.h; sourceTree = "<group>"; };
+		2C0B328921ECB49700DE2C90 /* FMTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTabController.m; sourceTree = "<group>"; };
+		2C0B328B21ECB51000DE2C90 /* FMNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMNavController.h; sourceTree = "<group>"; };
+		2C0B328C21ECB51000DE2C90 /* FMNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMNavController.m; sourceTree = "<group>"; };
+		2C0B328E21ECB63400DE2C90 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C0B328F21ECB66300DE2C90 /* FMConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMConst.h; sourceTree = "<group>"; };
+		2C0B329021ECB66300DE2C90 /* FMConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMConst.m; sourceTree = "<group>"; };
+		2C0B329221ECBA1400DE2C90 /* FMFuntionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMFuntionController.h; sourceTree = "<group>"; };
+		2C0B329321ECBA1400DE2C90 /* FMFuntionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMFuntionController.m; sourceTree = "<group>"; };
+		2C0B329421ECBA1400DE2C90 /* FMFuntionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMFuntionController.xib; sourceTree = "<group>"; };
+		2C0B329721ECBB4900DE2C90 /* FMtableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMtableController.h; sourceTree = "<group>"; };
+		2C0B329821ECBB4900DE2C90 /* FMtableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMtableController.m; sourceTree = "<group>"; };
+		2C0B329F21ECBE9300DE2C90 /* FMMeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMeController.h; sourceTree = "<group>"; };
+		2C0B32A021ECBE9300DE2C90 /* FMMeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMeController.m; sourceTree = "<group>"; };
+		2C0B32A121ECBE9300DE2C90 /* FMMeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMMeController.xib; sourceTree = "<group>"; };
+		2C0B32A421ECE8ED00DE2C90 /* FMUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMUserManager.h; sourceTree = "<group>"; };
+		2C0B32A521ECE8ED00DE2C90 /* FMUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMUserManager.m; sourceTree = "<group>"; };
+		2C0B32A721ED6C0800DE2C90 /* FMMeModifyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMeModifyController.h; sourceTree = "<group>"; };
+		2C0B32A821ED6C0800DE2C90 /* FMMeModifyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMeModifyController.m; sourceTree = "<group>"; };
+		2C0B32A921ED6C0800DE2C90 /* FMMeModifyController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMMeModifyController.xib; sourceTree = "<group>"; };
+		2C0B32AC21ED81B800DE2C90 /* FMFunCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMFunCell.h; sourceTree = "<group>"; };
+		2C0B32AD21ED81B800DE2C90 /* FMFunCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMFunCell.m; sourceTree = "<group>"; };
+		2C0B32AE21ED81B800DE2C90 /* FMFunCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMFunCell.xib; sourceTree = "<group>"; };
+		2C0B32B221ED9DA600DE2C90 /* FMOfficeDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMOfficeDetailController.h; sourceTree = "<group>"; };
+		2C0B32B321ED9DA600DE2C90 /* FMOfficeDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMOfficeDetailController.m; sourceTree = "<group>"; };
+		2C0B32B621ED9DE300DE2C90 /* FMDetailOfficeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDetailOfficeCell.h; sourceTree = "<group>"; };
+		2C0B32B721ED9DE300DE2C90 /* FMDetailOfficeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDetailOfficeCell.m; sourceTree = "<group>"; };
+		2C0B32B821ED9DE300DE2C90 /* FMDetailOfficeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMDetailOfficeCell.xib; sourceTree = "<group>"; };
+		2C0B32BC21EDA79800DE2C90 /* FMHospitalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHospitalController.h; sourceTree = "<group>"; };
+		2C0B32BD21EDA79800DE2C90 /* FMHospitalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHospitalController.m; sourceTree = "<group>"; };
+		2C0B32C521EDAC1800DE2C90 /* FMHospital.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHospital.h; sourceTree = "<group>"; };
+		2C0B32C621EDAC1800DE2C90 /* FMHospital.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHospital.m; sourceTree = "<group>"; };
+		2C0B32C921EDC7B400DE2C90 /* FMHospitalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHospitalCell.h; sourceTree = "<group>"; };
+		2C0B32CA21EDC7B400DE2C90 /* FMHospitalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHospitalCell.m; sourceTree = "<group>"; };
+		2C0B32CB21EDC7B400DE2C90 /* FMHospitalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMHospitalCell.xib; sourceTree = "<group>"; };
+		2C0B32CE21EDCA2500DE2C90 /* HospitalDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HospitalDetailController.h; sourceTree = "<group>"; };
+		2C0B32CF21EDCA2500DE2C90 /* HospitalDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailController.m; sourceTree = "<group>"; };
+		2C0B32D021EDCA2500DE2C90 /* HospitalDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalDetailController.xib; sourceTree = "<group>"; };
+		2C0B32D321EDDC6200DE2C90 /* FMHosDoctorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHosDoctorController.h; sourceTree = "<group>"; };
+		2C0B32D421EDDC6200DE2C90 /* FMHosDoctorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHosDoctorController.m; sourceTree = "<group>"; };
+		2C0B32D621EDDC7D00DE2C90 /* FMHosDocCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHosDocCell.h; sourceTree = "<group>"; };
+		2C0B32D721EDDC7D00DE2C90 /* FMHosDocCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHosDocCell.m; sourceTree = "<group>"; };
+		2C0B32D821EDDC7D00DE2C90 /* FMHosDocCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMHosDocCell.xib; sourceTree = "<group>"; };
+		2CB52F6521EDECCC00E0A68E /* FMDoctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDoctor.h; sourceTree = "<group>"; };
+		2CB52F6621EDECCC00E0A68E /* FMDoctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDoctor.m; sourceTree = "<group>"; };
+		2CB52F6821EE1CC700E0A68E /* FMDocDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDocDetailController.h; sourceTree = "<group>"; };
+		2CB52F6921EE1CC700E0A68E /* FMDocDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDocDetailController.m; sourceTree = "<group>"; };
+		2CB52F6A21EE1CC700E0A68E /* FMDocDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMDocDetailController.xib; sourceTree = "<group>"; };
+		2CB52F6D21EE338D00E0A68E /* FMDocConfirmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDocConfirmController.h; sourceTree = "<group>"; };
+		2CB52F6E21EE338D00E0A68E /* FMDocConfirmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDocConfirmController.m; sourceTree = "<group>"; };
+		2CB52F6F21EE338D00E0A68E /* FMDocConfirmController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMDocConfirmController.xib; sourceTree = "<group>"; };
+		2CB52F7221EE504900E0A68E /* FMRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMRecordCell.h; sourceTree = "<group>"; };
+		2CB52F7321EE504900E0A68E /* FMRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMRecordCell.m; sourceTree = "<group>"; };
+		2CB52F7421EE504900E0A68E /* FMRecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMRecordCell.xib; sourceTree = "<group>"; };
+		2CB52F7721EE521700E0A68E /* FMRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMRecord.h; sourceTree = "<group>"; };
+		2CB52F7821EE521700E0A68E /* FMRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMRecord.m; sourceTree = "<group>"; };
+		2CB52F7A21EE55DC00E0A68E /* FMRecordDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMRecordDetailController.h; sourceTree = "<group>"; };
+		2CB52F7B21EE55DC00E0A68E /* FMRecordDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMRecordDetailController.m; sourceTree = "<group>"; };
+		2CB52F7C21EE55DC00E0A68E /* FMRecordDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMRecordDetailController.xib; sourceTree = "<group>"; };
+		420D6B64D82AC416451B1EB1 /* libPods-EasyToSeeADoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyToSeeADoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		554716E111478D100CFD8BAE /* Pods-EasyToSeeADoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyToSeeADoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyToSeeADoctor/Pods-EasyToSeeADoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1E059FA620EE504ED1AB66 /* Pods-EasyToSeeADoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyToSeeADoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyToSeeADoctor/Pods-EasyToSeeADoctor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C0B325021ECA3F500DE2C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CA8C8CB4DA39A2B90635FA /* libPods-EasyToSeeADoctor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0B324A21ECA3F500DE2C90 = {
+			isa = PBXGroup;
+			children = (
+				2C0B325521ECA3F500DE2C90 /* EasyToSeeADoctor */,
+				2C0B325421ECA3F500DE2C90 /* Products */,
+				4B294DB258C62CFED69993FD /* Pods */,
+				B400452E2888857A70A0AC69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C0B325421ECA3F500DE2C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B325321ECA3F500DE2C90 /* EasyToSeeADoctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C0B325521ECA3F500DE2C90 /* EasyToSeeADoctor */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B326C21ECA67C00DE2C90 /* Classes */,
+				2C0B325F21ECA3F700DE2C90 /* Assets.xcassets */,
+				2C0B326121ECA3F700DE2C90 /* LaunchScreen.storyboard */,
+				2C0B326421ECA3F700DE2C90 /* Info.plist */,
+				2C0B326521ECA3F700DE2C90 /* main.m */,
+			);
+			path = EasyToSeeADoctor;
+			sourceTree = "<group>";
+		};
+		2C0B326C21ECA67C00DE2C90 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B327521ECA67C00DE2C90 /* Main */,
+				2C0B326D21ECA67C00DE2C90 /* Record */,
+				2C0B327121ECA67C00DE2C90 /* Me */,
+				2C0B327E21ECAA6500DE2C90 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C0B326D21ECA67C00DE2C90 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B326E21ECA67C00DE2C90 /* Controller */,
+				2C0B326F21ECA67C00DE2C90 /* Model */,
+				2C0B327021ECA67C00DE2C90 /* View */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		2C0B326E21ECA67C00DE2C90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B329721ECBB4900DE2C90 /* FMtableController.h */,
+				2C0B329821ECBB4900DE2C90 /* FMtableController.m */,
+				2CB52F7A21EE55DC00E0A68E /* FMRecordDetailController.h */,
+				2CB52F7B21EE55DC00E0A68E /* FMRecordDetailController.m */,
+				2CB52F7C21EE55DC00E0A68E /* FMRecordDetailController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C0B326F21ECA67C00DE2C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CB52F7721EE521700E0A68E /* FMRecord.h */,
+				2CB52F7821EE521700E0A68E /* FMRecord.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C0B327021ECA67C00DE2C90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CB52F7221EE504900E0A68E /* FMRecordCell.h */,
+				2CB52F7321EE504900E0A68E /* FMRecordCell.m */,
+				2CB52F7421EE504900E0A68E /* FMRecordCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C0B327121ECA67C00DE2C90 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B327221ECA67C00DE2C90 /* Controller */,
+				2C0B327321ECA67C00DE2C90 /* Model */,
+				2C0B327421ECA67C00DE2C90 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2C0B327221ECA67C00DE2C90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B327921ECA6E500DE2C90 /* FMLoginController.h */,
+				2C0B327A21ECA6E500DE2C90 /* FMLoginController.m */,
+				2C0B327B21ECA6E500DE2C90 /* FMLoginController.xib */,
+				2C0B327F21ECAC7400DE2C90 /* FMRegisterController.h */,
+				2C0B328021ECAC7400DE2C90 /* FMRegisterController.m */,
+				2C0B328121ECAC7400DE2C90 /* FMRegisterController.xib */,
+				2C0B329F21ECBE9300DE2C90 /* FMMeController.h */,
+				2C0B32A021ECBE9300DE2C90 /* FMMeController.m */,
+				2C0B32A121ECBE9300DE2C90 /* FMMeController.xib */,
+				2C0B32A721ED6C0800DE2C90 /* FMMeModifyController.h */,
+				2C0B32A821ED6C0800DE2C90 /* FMMeModifyController.m */,
+				2C0B32A921ED6C0800DE2C90 /* FMMeModifyController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C0B327321ECA67C00DE2C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B328521ECAFE800DE2C90 /* FMUser.h */,
+				2C0B328621ECAFE800DE2C90 /* FMUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C0B327421ECA67C00DE2C90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C0B327521ECA67C00DE2C90 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B327621ECA67C00DE2C90 /* Controller */,
+				2C0B327721ECA67C00DE2C90 /* Model */,
+				2C0B327821ECA67C00DE2C90 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C0B327621ECA67C00DE2C90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32BB21EDA76D00DE2C90 /* HospitalController */,
+				2C0B32B121ED9D5C00DE2C90 /* DetailController */,
+				2C0B328821ECB49700DE2C90 /* FMTabController.h */,
+				2C0B328921ECB49700DE2C90 /* FMTabController.m */,
+				2C0B328B21ECB51000DE2C90 /* FMNavController.h */,
+				2C0B328C21ECB51000DE2C90 /* FMNavController.m */,
+				2C0B329221ECBA1400DE2C90 /* FMFuntionController.h */,
+				2C0B329321ECBA1400DE2C90 /* FMFuntionController.m */,
+				2C0B329421ECBA1400DE2C90 /* FMFuntionController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C0B327721ECA67C00DE2C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32C521EDAC1800DE2C90 /* FMHospital.h */,
+				2C0B32C621EDAC1800DE2C90 /* FMHospital.m */,
+				2CB52F6521EDECCC00E0A68E /* FMDoctor.h */,
+				2CB52F6621EDECCC00E0A68E /* FMDoctor.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C0B327821ECA67C00DE2C90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32C821EDC78F00DE2C90 /* HospitalCell */,
+				2C0B32B521ED9DC700DE2C90 /* DetailCell */,
+				2C0B32AC21ED81B800DE2C90 /* FMFunCell.h */,
+				2C0B32AD21ED81B800DE2C90 /* FMFunCell.m */,
+				2C0B32AE21ED81B800DE2C90 /* FMFunCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C0B327E21ECAA6500DE2C90 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B328421ECAFA200DE2C90 /* Singleton */,
+				2C0B325621ECA3F500DE2C90 /* AppDelegate.h */,
+				2C0B325721ECA3F500DE2C90 /* AppDelegate.m */,
+				2C0B328E21ECB63400DE2C90 /* PrefixHeader.pch */,
+				2C0B328F21ECB66300DE2C90 /* FMConst.h */,
+				2C0B329021ECB66300DE2C90 /* FMConst.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		2C0B328421ECAFA200DE2C90 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32A421ECE8ED00DE2C90 /* FMUserManager.h */,
+				2C0B32A521ECE8ED00DE2C90 /* FMUserManager.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		2C0B32B121ED9D5C00DE2C90 /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32B221ED9DA600DE2C90 /* FMOfficeDetailController.h */,
+				2C0B32B321ED9DA600DE2C90 /* FMOfficeDetailController.m */,
+			);
+			path = DetailController;
+			sourceTree = "<group>";
+		};
+		2C0B32B521ED9DC700DE2C90 /* DetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32B621ED9DE300DE2C90 /* FMDetailOfficeCell.h */,
+				2C0B32B721ED9DE300DE2C90 /* FMDetailOfficeCell.m */,
+				2C0B32B821ED9DE300DE2C90 /* FMDetailOfficeCell.xib */,
+			);
+			path = DetailCell;
+			sourceTree = "<group>";
+		};
+		2C0B32BB21EDA76D00DE2C90 /* HospitalController */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32BC21EDA79800DE2C90 /* FMHospitalController.h */,
+				2C0B32BD21EDA79800DE2C90 /* FMHospitalController.m */,
+				2C0B32CE21EDCA2500DE2C90 /* HospitalDetailController.h */,
+				2C0B32CF21EDCA2500DE2C90 /* HospitalDetailController.m */,
+				2C0B32D021EDCA2500DE2C90 /* HospitalDetailController.xib */,
+				2C0B32D321EDDC6200DE2C90 /* FMHosDoctorController.h */,
+				2C0B32D421EDDC6200DE2C90 /* FMHosDoctorController.m */,
+				2CB52F6821EE1CC700E0A68E /* FMDocDetailController.h */,
+				2CB52F6921EE1CC700E0A68E /* FMDocDetailController.m */,
+				2CB52F6A21EE1CC700E0A68E /* FMDocDetailController.xib */,
+				2CB52F6D21EE338D00E0A68E /* FMDocConfirmController.h */,
+				2CB52F6E21EE338D00E0A68E /* FMDocConfirmController.m */,
+				2CB52F6F21EE338D00E0A68E /* FMDocConfirmController.xib */,
+			);
+			path = HospitalController;
+			sourceTree = "<group>";
+		};
+		2C0B32C821EDC78F00DE2C90 /* HospitalCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B32C921EDC7B400DE2C90 /* FMHospitalCell.h */,
+				2C0B32CA21EDC7B400DE2C90 /* FMHospitalCell.m */,
+				2C0B32CB21EDC7B400DE2C90 /* FMHospitalCell.xib */,
+				2C0B32D621EDDC7D00DE2C90 /* FMHosDocCell.h */,
+				2C0B32D721EDDC7D00DE2C90 /* FMHosDocCell.m */,
+				2C0B32D821EDDC7D00DE2C90 /* FMHosDocCell.xib */,
+			);
+			path = HospitalCell;
+			sourceTree = "<group>";
+		};
+		4B294DB258C62CFED69993FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				554716E111478D100CFD8BAE /* Pods-EasyToSeeADoctor.debug.xcconfig */,
+				9F1E059FA620EE504ED1AB66 /* Pods-EasyToSeeADoctor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B400452E2888857A70A0AC69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				420D6B64D82AC416451B1EB1 /* libPods-EasyToSeeADoctor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C0B325221ECA3F500DE2C90 /* EasyToSeeADoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0B326921ECA3F700DE2C90 /* Build configuration list for PBXNativeTarget "EasyToSeeADoctor" */;
+			buildPhases = (
+				523893F25E7BA9D9B2B2F0CA /* [CP] Check Pods Manifest.lock */,
+				2C0B324F21ECA3F500DE2C90 /* Sources */,
+				2C0B325021ECA3F500DE2C90 /* Frameworks */,
+				2C0B325121ECA3F500DE2C90 /* Resources */,
+				14CE72E97DD478832350FBA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyToSeeADoctor;
+			productName = EasyToSeeADoctor;
+			productReference = 2C0B325321ECA3F500DE2C90 /* EasyToSeeADoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C0B324B21ECA3F500DE2C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Mai;
+				TargetAttributes = {
+					2C0B325221ECA3F500DE2C90 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2C0B324E21ECA3F500DE2C90 /* Build configuration list for PBXProject "EasyToSeeADoctor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C0B324A21ECA3F500DE2C90;
+			productRefGroup = 2C0B325421ECA3F500DE2C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C0B325221ECA3F500DE2C90 /* EasyToSeeADoctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C0B325121ECA3F500DE2C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB52F7621EE504900E0A68E /* FMRecordCell.xib in Resources */,
+				2C0B32D221EDCA2500DE2C90 /* HospitalDetailController.xib in Resources */,
+				2C0B32CD21EDC7B400DE2C90 /* FMHospitalCell.xib in Resources */,
+				2C0B32AB21ED6C0800DE2C90 /* FMMeModifyController.xib in Resources */,
+				2C0B32BA21ED9DE300DE2C90 /* FMDetailOfficeCell.xib in Resources */,
+				2C0B32DA21EDDC7D00DE2C90 /* FMHosDocCell.xib in Resources */,
+				2CB52F7E21EE55DC00E0A68E /* FMRecordDetailController.xib in Resources */,
+				2C0B326321ECA3F700DE2C90 /* LaunchScreen.storyboard in Resources */,
+				2CB52F7121EE338D00E0A68E /* FMDocConfirmController.xib in Resources */,
+				2C0B32B021ED81B800DE2C90 /* FMFunCell.xib in Resources */,
+				2C0B328321ECAC7400DE2C90 /* FMRegisterController.xib in Resources */,
+				2CB52F6C21EE1CC700E0A68E /* FMDocDetailController.xib in Resources */,
+				2C0B32A321ECBE9300DE2C90 /* FMMeController.xib in Resources */,
+				2C0B329621ECBA1400DE2C90 /* FMFuntionController.xib in Resources */,
+				2C0B327D21ECA6E500DE2C90 /* FMLoginController.xib in Resources */,
+				2C0B326021ECA3F700DE2C90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14CE72E97DD478832350FBA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyToSeeADoctor/Pods-EasyToSeeADoctor-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyToSeeADoctor/Pods-EasyToSeeADoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523893F25E7BA9D9B2B2F0CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyToSeeADoctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C0B324F21ECA3F500DE2C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0B329521ECBA1400DE2C90 /* FMFuntionController.m in Sources */,
+				2CB52F7521EE504900E0A68E /* FMRecordCell.m in Sources */,
+				2C0B32B921ED9DE300DE2C90 /* FMDetailOfficeCell.m in Sources */,
+				2CB52F6B21EE1CC700E0A68E /* FMDocDetailController.m in Sources */,
+				2C0B32CC21EDC7B400DE2C90 /* FMHospitalCell.m in Sources */,
+				2CB52F6721EDECCC00E0A68E /* FMDoctor.m in Sources */,
+				2C0B32AA21ED6C0800DE2C90 /* FMMeModifyController.m in Sources */,
+				2C0B326621ECA3F700DE2C90 /* main.m in Sources */,
+				2C0B32A221ECBE9300DE2C90 /* FMMeController.m in Sources */,
+				2C0B32B421ED9DA600DE2C90 /* FMOfficeDetailController.m in Sources */,
+				2C0B32AF21ED81B800DE2C90 /* FMFunCell.m in Sources */,
+				2C0B32D121EDCA2500DE2C90 /* HospitalDetailController.m in Sources */,
+				2C0B328221ECAC7400DE2C90 /* FMRegisterController.m in Sources */,
+				2C0B325821ECA3F500DE2C90 /* AppDelegate.m in Sources */,
+				2C0B32D521EDDC6200DE2C90 /* FMHosDoctorController.m in Sources */,
+				2C0B327C21ECA6E500DE2C90 /* FMLoginController.m in Sources */,
+				2C0B328A21ECB49700DE2C90 /* FMTabController.m in Sources */,
+				2C0B32D921EDDC7D00DE2C90 /* FMHosDocCell.m in Sources */,
+				2C0B32BE21EDA79800DE2C90 /* FMHospitalController.m in Sources */,
+				2C0B32C721EDAC1800DE2C90 /* FMHospital.m in Sources */,
+				2C0B32A621ECE8ED00DE2C90 /* FMUserManager.m in Sources */,
+				2C0B328D21ECB51000DE2C90 /* FMNavController.m in Sources */,
+				2CB52F7D21EE55DC00E0A68E /* FMRecordDetailController.m in Sources */,
+				2C0B329121ECB66300DE2C90 /* FMConst.m in Sources */,
+				2C0B328721ECAFE800DE2C90 /* FMUser.m in Sources */,
+				2C0B329921ECBB4900DE2C90 /* FMtableController.m in Sources */,
+				2CB52F7921EE521700E0A68E /* FMRecord.m in Sources */,
+				2CB52F7021EE338D00E0A68E /* FMDocConfirmController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C0B326121ECA3F700DE2C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0B326221ECA3F700DE2C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C0B326721ECA3F700DE2C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C0B326821ECA3F700DE2C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C0B326A21ECA3F700DE2C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554716E111478D100CFD8BAE /* Pods-EasyToSeeADoctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EALZ7245Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = EasyToSeeADoctor/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = EasyToSeeADoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YuXiangMai.EasyToSeeADoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C0B326B21ECA3F700DE2C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1E059FA620EE504ED1AB66 /* Pods-EasyToSeeADoctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EALZ7245Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = EasyToSeeADoctor/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = EasyToSeeADoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YuXiangMai.EasyToSeeADoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0B324E21ECA3F500DE2C90 /* Build configuration list for PBXProject "EasyToSeeADoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0B326721ECA3F700DE2C90 /* Debug */,
+				2C0B326821ECA3F700DE2C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C0B326921ECA3F700DE2C90 /* Build configuration list for PBXNativeTarget "EasyToSeeADoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0B326A21ECA3F700DE2C90 /* Debug */,
+				2C0B326B21ECA3F700DE2C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C0B324B21ECA3F500DE2C90 /* Project object */;
+}

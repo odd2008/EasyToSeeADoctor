@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  EasyToSeeADoctor
+//
+//  Created by mai on 2019/1/14.
+//  Copyright © 2019 Mai. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "FMConst.h"
+#import <AFNetworking.h>
+#import <SVProgressHUD.h>
+#import <MJExtension.h>
+#import "FMUser.h"
+#import "FMUserManager.h"
+#import <UIImageView+WebCache.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
